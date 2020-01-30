@@ -2,8 +2,8 @@
 # Escreva um algoritmo para ler o preço do litro do combustível e o valor que o motorista deseja abastecer. 
 # Em seguida, informe quantos litros foram abastecidos.
 
-combLitro = 3 #float(input("Digite o valor do litro combustivel: "))
-valor = 12 #float(input("Digite o valor em reais a ser abastecido: "))
+combLitro = float(input("Digite o valor do litro combustivel: "))
+valor = float(input("Digite o valor em reais a ser abastecido: "))
 
 litros = valor / combLitro
 
