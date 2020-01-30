@@ -5,6 +5,6 @@
 combLitro = 3 #float(input("Digite o valor do litro combustivel: "))
 valor = 12 #float(input("Digite o valor em reais a ser abastecido: "))
 
-litros = (combLitro * valor) / valor
+litros = valor / combLitro
 
-print(f"{litros}")
+print(f"A quantidade de litros é: {litros}")
