@@ -24,5 +24,5 @@ numero = input("Digite um número para o mês: ")
 if int(numero) > 12:
     print("Entrada inválida")
 else:
-    x = meses[numero]
-    print(x)
+    mes = meses[numero]
+    print(mes)
